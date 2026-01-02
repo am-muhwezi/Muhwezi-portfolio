@@ -1,3 +1,68 @@
+# Muhwezi Portfolio
+
+>A modern, responsive developer portfolio built with React, TypeScript, Vite, and Tailwind CSS.
+
+## Features
+
+- Clean, responsive design
+- Project showcase with cards
+- Technology icons
+- Light/dark theme toggle
+- Modular React components
+- Deployed to GitHub Pages
+
+## Tech Stack
+
+- [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
+- [Vite](https://vitejs.dev/) for fast builds and HMR
+- [Tailwind CSS](https://tailwindcss.com/) for utility-first styling
+- [ESLint](https://eslint.org/) for code quality
+
+## Getting Started
+
+1. **Clone the repository:**
+  ```bash
+  git clone https://github.com/your-username/Muhwezi-portfolio.git
+  cd Muhwezi-portfolio
+  ```
+2. **Install dependencies:**
+  ```bash
+  npm install
+  ```
+3. **Run the development server:**
+  ```bash
+  npm run dev
+  ```
+  The app will be available at [http://localhost:5173](http://localhost:5173).
+
+## Building for Production
+
+To build the optimized static site:
+
+```bash
+npm run build
+```
+The output will be in the `dist/` folder.
+
+## Deployment
+
+This portfolio is automatically deployed to GitHub Pages using GitHub Actions. On every push to the `main` branch, the site is built and published from the `dist/` directory.
+
+## Folder Structure
+
+- `src/components/` – Reusable React components (Header, Footer, ProjectCard, etc.)
+- `src/data/` – Project data
+- `src/hooks/` – Custom React hooks
+- `public/` – Static assets
+
+## Customization
+
+- Update your projects in `src/data/projects.ts`.
+- Edit content and styles in the components as needed.
+
+## License
+
+MIT
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
